@@ -19,12 +19,9 @@ const Home = () => {
                             I'm <span className="text-accent">Beatriz</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-white/80">
-                            As a Full Stack Software Developer, I have
-                            experience in designing, creating, testing and
-                            maintaining software systems, as well as creating
-                            APIs. As a Data Engineer, I have experience in
-                            designing end-to-end solutions, including ETL
-                            pipelines, algorithms, and databases.
+                            Software developer and data engineer. <br />
+                            Proficient in various technologies. <br />
+                            Passionate about the NFL, MLB and NBA.
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
                             <Button
