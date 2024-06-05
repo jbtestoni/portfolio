@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 import Social from "../components/Social";
 import Photo from "../components/Photo";
+import Stats from "../components/Stats";
 
 const Home = () => {
     return (
@@ -11,14 +12,11 @@ const Home = () => {
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     <div className="text-center xl:text-left order-2 xl:order-none">
                         <span className="text-xl">
-                            Software Developer & <br />
-                            Data Engineer
+                            Software Developer & Data Engineer
                         </span>
                         <h1 className="h1 mb-6">
-                            Hello. I'm <br />{" "}
-                            <span className="text-accent">
-                                Beatriz Norbiato
-                            </span>
+                            Hello <br />
+                            I'm <span className="text-accent">Beatriz</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-white/80">
                             As a Full Stack Software Developer, I have
@@ -52,6 +50,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <Stats />
         </section>
     );
 };
