@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) portfolio project.
-
 ## Nice to meet you!
 
 ```bash
