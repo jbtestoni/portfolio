@@ -23,12 +23,15 @@ import { ScrollArea } from "../../components/ui/scroll-area";
 
 const about = {
     title: "About me",
-    description:
-        "Software developer and data engineer. Proficient in various technologies. Passionate about the NFL, MLB and NBA.",
+    description: "More than just a programmer.",
     info: [
         {
             fieldName: "Name",
             fieldValue: "Beatriz Norbiato",
+        },
+        {
+            fieldName: "Nickname",
+            fieldValue: "Teoni",
         },
         {
             fieldName: "Experience",
@@ -47,6 +50,7 @@ const about = {
 
 const experience = {
     title: "My experience",
+    description: "These are the places that helped me get here!",
     items: [
         {
             company: "Appnovation",
@@ -83,6 +87,7 @@ const experience = {
 
 const education = {
     title: "My education",
+    description: "I'm still at the beginning.",
     items: [
         {
             institution: "University of Michigan",
@@ -99,6 +104,7 @@ const education = {
 
 const skills = {
     title: "My skills",
+    description: "The languages and technologies I've extensive knowledge in.",
     skillList: [
         {
             icon: <FaReact />,
@@ -163,6 +169,9 @@ const Resume = () => {
                                 <h3 className="text-4xl font-bold">
                                     {experience.title}
                                 </h3>
+                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                    {experience.description}
+                                </p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {experience.items.map((item, index) => {
@@ -196,6 +205,9 @@ const Resume = () => {
                                 <h3 className="text-4xl font-bold">
                                     {education.title}
                                 </h3>
+                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                    {education.description}
+                                </p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {education.items.map((item, index) => {
@@ -230,6 +242,9 @@ const Resume = () => {
                                     <h3 className="text-4xl font-bold">
                                         {skills.title}
                                     </h3>
+                                    <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                        {skills.description}
+                                    </p>
                                 </div>
                                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                                     {skills.skillList.map((skill, index) => {
