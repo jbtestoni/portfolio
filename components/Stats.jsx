@@ -8,16 +8,12 @@ const stats = [
         text: "Years of experience",
     },
     {
-        num: 43,
+        num: 45,
         text: "Projects completed",
     },
     {
         num: 6,
         text: "Technologies mastered",
-    },
-    {
-        num: 500,
-        text: "Code commits",
     },
 ];
 
@@ -29,14 +25,14 @@ const Stats = ({ containerStyles, iconStyles }) => {
                     {stats.map((item, index) => {
                         return (
                             <div
-                                className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+                                className="flex-1 flex gap-4 items-center justify-center"
                                 key={index}
                             >
                                 <CountUp
                                     end={item.num}
                                     duration={5}
                                     delay={2}
-                                    className="text-4xl xl:text-6xl front-extrabold"
+                                    className="text-4xl xl:text-6xl front-extrabold text-accent"
                                 />
                                 <p
                                     className={`${
