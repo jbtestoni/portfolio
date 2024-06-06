@@ -9,14 +9,14 @@ const services = [
         num: "01",
         title: "Software Development",
         description:
-            "I design, code, and maintain applications and systems, ensuring functionality, security, and performance, while solving technical problems.",
+            "I design, code, and maintain applications and systems, ensuring functionality, security and performance, while solving technical problems.",
         href: "",
     },
     {
         num: "02",
         title: "Data Engineering",
         description:
-            "I design and maintain data pipelines, ensuring efficient data flow, integration, and storage, while supporting analytics and machine learning.",
+            "I design and maintain data pipelines, ensuring efficient data flow, integration and storage, while supporting analytics and machine learning.",
         href: "",
     },
 ];
