@@ -11,17 +11,16 @@ const Home = () => {
             <div className="container mx-aut h-full">
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     <div className="text-center xl:text-left order-2 xl:order-none">
-                        <span className="text-xl">
-                            Software Developer & Data Engineer
-                        </span>
-                        <h1 className="h1 mb-6">
-                            Hello <br />
-                            I'm <span className="text-accent">Beatriz</span>
-                        </h1>
+                        <h3 className="h3">
+                            Software{" "}
+                            <span className="text-accent">Developer</span> &
+                            <br /> Data{" "}
+                            <span className="text-accent">Engineer</span>
+                        </h3>
                         <p className="max-w-[500px] mb-9 text-white/80">
-                            I'm passionate about programming, aiming to make the
-                            world better through tech. <br />
-                            Let's code and cheer together!
+                            I'm a developer with experience in JavaScript and
+                            Python. Also I've expertise in frameworks like
+                            React, Node.js and TypeScript.
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
                             <Button
@@ -48,7 +47,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <Stats />
+            <div className="xl:block hidden">
+                <Stats />
+            </div>
         </section>
     );
 };

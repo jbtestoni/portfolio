@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-    title: "Teoni | Software Developer",
+    title: "Teoni | Portfolio",
 };
 
 export default function RootLayout({ children }) {
