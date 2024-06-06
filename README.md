@@ -1,7 +1,7 @@
 ## Nice to meet you!
 
 ```bash
-In this project, Next.js and TailwindCSS were used. The deployment was done using Vercel.
+This is a portfolio project built with Next.js and TailwindCSS. The project's deployment is on Vercel.
 ```
 
 
