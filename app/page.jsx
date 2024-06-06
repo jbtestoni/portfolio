@@ -19,9 +19,9 @@ const Home = () => {
                             I'm <span className="text-accent">Beatriz</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-white/80">
-                            Software developer and data engineer. <br />
-                            Proficient in various technologies. <br />
-                            Passionate about the NFL, MLB and NBA.
+                            I'm passionate about programming, aiming to make the
+                            world better through tech. <br />
+                            Let's code and cheer together!
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
                             <Button

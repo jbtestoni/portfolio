@@ -10,7 +10,7 @@ const Header = () => {
                 {/*Logo*/}
                 <Link href="/">
                     <h1 className="text-4xl font-semibold">
-                        B <span className="text-accent">.</span>
+                        Teoni <span className="text-accent">.</span>
                     </h1>
                 </Link>
 
@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
                     <Link href="/contact">
-                        <Button>Hire me</Button>
+                        <Button>Contact</Button>
                     </Link>
                 </div>
 
